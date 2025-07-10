@@ -20,8 +20,11 @@ A simple note-taking web application inspired by my lifestyle, to help me potent
 2. The globals module contains shared components, stores, composables, etc that are shared across other modules
 
 ## Development tools
-1. TipTap editor, for easy WYSIWYG editing
+1. TipTap, for easy WYSIWYG editing
 2. Pinia, for state management
-3. Pinia Colada, for the data fetching and updating layer
-4. VueUse, for pre-made composables
-5. Supabase, for API and data storage and user authentication
+3. VueUse, for pre-made composables
+4. Supabase, for API and data storage and user authentication
+5. Supabase-Js, for frontend interaction with Supabase
+6. Comlink (+ vite plugin), for shared worker messaging
+7. Shared Workers, for potential cross-tab sync
+8. LucideVue, for icons
