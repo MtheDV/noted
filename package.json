@@ -8,14 +8,16 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@supabase/supabase-js": "^2.50.5",
     "vue": "^3.5.17"
   },
   "devDependencies": {
     "@eslint/config-helpers": "^0.3.0",
-    "@mthedv/lint": "^1.0.4",
+    "@mthedv/lint": "^1.0.6",
     "@vitejs/plugin-vue": "^6.0.0",
     "@vue/tsconfig": "^0.7.0",
     "eslint": "^9.30.1",
+    "supabase": "^2.30.4",
     "typescript": "~5.8.3",
     "vite": "^7.0.0",
     "vue-tsc": "^2.2.10"
